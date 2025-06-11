@@ -1,0 +1,6 @@
+# sim_dataset/data.yaml
+path: sim_dataset
+train: images/train
+val: images/train  # ใช้ชุดเดียวกันทดลองก่อน
+names:
+  0: tis_mark
