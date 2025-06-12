@@ -5,7 +5,7 @@ from ultralytics import YOLO
 model = YOLO("runs/detect/tis_detect_model/weights/best.pt")
 
 # โฟลเดอร์ที่มีภาพทดสอบ
-image_folder = "C:\PRR\dd\data"
+image_folder = "C:\\PRR\\dd\\data"
 
 # วนลูปตรวจแต่ละภาพ
 for fname in os.listdir(image_folder):

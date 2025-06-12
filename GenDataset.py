@@ -14,7 +14,7 @@ CLASS_ID = 0  # 0 = tis_mark
 os.makedirs(f"{OUTPUT_DIR}/images/train", exist_ok=True)
 os.makedirs(f"{OUTPUT_DIR}/labels/train", exist_ok=True)
 
-# โหลดโลโก้ มอก. (ใส่ไฟล์ไว้ข้างๆ script หรือ path เอง)
+# โหลดโลโก้ มอก. 
 logo = Image.open("tis_logo.png").convert("RGBA")
 logo = logo.resize((LOGO_SIZE, LOGO_SIZE))
 

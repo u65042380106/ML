@@ -1,6 +1,5 @@
-# sim_dataset/data.yaml
-path: sim_dataset
+path: sim_dataset_multi
 train: images/train
 val: images/train  # ใช้ชุดเดียวกัน
-names:
-  0: tis_mark
+nc: 3
+names: ['tis_mark', 'other_logo1', 'other_logo2']
